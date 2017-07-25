@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 13.56 13.56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="7.51" y1="13.68" x2="6.04" y2="-0.16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffeed6"/>
+      <stop offset="0.04" stop-color="#feecd4"/>
+      <stop offset="0.05" stop-color="#f8e5ce"/>
+      <stop offset="0.06" stop-color="#efdac2"/>
+      <stop offset="0.07" stop-color="#e2c9b2"/>
+      <stop offset="0.08" stop-color="#d1b39d"/>
+      <stop offset="0.08" stop-color="#bc9783"/>
+      <stop offset="0.09" stop-color="#a37764"/>
+      <stop offset="0.09" stop-color="#875341"/>
+      <stop offset="0.1" stop-color="#804a39"/>
+      <stop offset="0.31" stop-color="#844d3b"/>
+      <stop offset="0.32" stop-color="#8b513e"/>
+      <stop offset="0.4" stop-color="#bc6e54"/>
+      <stop offset="0.53" stop-color="#b66b51"/>
+      <stop offset="0.7" stop-color="#a6614a"/>
+      <stop offset="0.7" stop-color="#a5614a"/>
+      <stop offset="0.91" stop-color="#bd6d54"/>
+      <stop offset="0.91" stop-color="#c0745c"/>
+      <stop offset="0.92" stop-color="#ca907b"/>
+      <stop offset="0.92" stop-color="#d4a897"/>
+      <stop offset="0.93" stop-color="#dbbbad"/>
+      <stop offset="0.94" stop-color="#e1cabe"/>
+      <stop offset="0.95" stop-color="#e5d4c9"/>
+      <stop offset="0.96" stop-color="#e7dad0"/>
+      <stop offset="1" stop-color="#e8dcd2"/>
+    </linearGradient>
+  </defs>
+  <title>Mars</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Solar_System_-_Page" data-name="Solar System - Page">
+      <g id="Planets">
+        <circle id="Mars" class="cls-1" cx="6.78" cy="6.78" r="6.78"/>
+      </g>
+    </g>
+  </g>
+</svg>

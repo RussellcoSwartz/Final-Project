@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 32.02">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 14px;
+        fill: #fff;
+        font-family: MyriadPro-Regular, Myriad Pro;
+      }
+
+      .cls-2 {
+        letter-spacing: 0.01em;
+      }
+    </style>
+  </defs>
+  <title>Scale_N.U</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Solar_System_-_Page" data-name="Solar System - Page">
+      <g id="Scales">
+        <text class="cls-1" transform="translate(0.87 11.72)">1012 mill<tspan class="cls-2" x="11.35" y="16.8">M</tspan><tspan x="22.77" y="16.8">iles</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

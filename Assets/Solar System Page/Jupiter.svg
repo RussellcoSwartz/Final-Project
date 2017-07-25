@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 157 157">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="78.04" y1="158.27" x2="78.97" y2="-2.84" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffeebc"/>
+      <stop offset="0.03" stop-color="#ffefbf"/>
+      <stop offset="0.05" stop-color="#fff1c8"/>
+      <stop offset="0.07" stop-color="#fff5d8"/>
+      <stop offset="0.09" stop-color="#fffbee"/>
+      <stop offset="0.1" stop-color="#fff"/>
+      <stop offset="0.11" stop-color="#fcfbfa"/>
+      <stop offset="0.12" stop-color="#f4f1ea"/>
+      <stop offset="0.14" stop-color="#e7e0d1"/>
+      <stop offset="0.14" stop-color="#e3dbc9"/>
+      <stop offset="0.19" stop-color="#dcc794"/>
+      <stop offset="0.27" stop-color="#e7e9ee"/>
+      <stop offset="0.33" stop-color="#b49598"/>
+      <stop offset="0.37" stop-color="#b49496"/>
+      <stop offset="0.39" stop-color="#b5908f"/>
+      <stop offset="0.39" stop-color="#b58f8d"/>
+      <stop offset="0.43" stop-color="#dcc6c9"/>
+      <stop offset="0.45" stop-color="#f5eaf0"/>
+      <stop offset="0.47" stop-color="#fff8ff"/>
+      <stop offset="0.47" stop-color="#fbf4f6"/>
+      <stop offset="0.49" stop-color="#ede2d5"/>
+      <stop offset="0.5" stop-color="#e7dcc8"/>
+      <stop offset="0.53" stop-color="#c19c93"/>
+      <stop offset="0.56" stop-color="#a46a6a"/>
+      <stop offset="0.58" stop-color="#924b50"/>
+      <stop offset="0.6" stop-color="#8b4047"/>
+      <stop offset="0.62" stop-color="#8c4249"/>
+      <stop offset="0.62" stop-color="#8f4850"/>
+      <stop offset="0.63" stop-color="#94535b"/>
+      <stop offset="0.63" stop-color="#9c636c"/>
+      <stop offset="0.63" stop-color="#a57882"/>
+      <stop offset="0.64" stop-color="#b2929e"/>
+      <stop offset="0.64" stop-color="#c0b1be"/>
+      <stop offset="0.64" stop-color="#d0d3e2"/>
+      <stop offset="0.64" stop-color="#def"/>
+      <stop offset="0.68" stop-color="#ddedfd"/>
+      <stop offset="0.7" stop-color="#ddeaf6"/>
+      <stop offset="0.71" stop-color="#dee4eb"/>
+      <stop offset="0.71" stop-color="#dedcda"/>
+      <stop offset="0.72" stop-color="#dfd2c4"/>
+      <stop offset="0.72" stop-color="#dfd0bf"/>
+      <stop offset="0.76" stop-color="#bdb1a2"/>
+      <stop offset="0.79" stop-color="#9f9588"/>
+      <stop offset="0.82" stop-color="#8d8479"/>
+      <stop offset="0.85" stop-color="#867e73"/>
+      <stop offset="0.9" stop-color="#8a8176"/>
+      <stop offset="0.95" stop-color="#948b81"/>
+      <stop offset="1" stop-color="#a69d92"/>
+      <stop offset="1" stop-color="#a79d93"/>
+      <stop offset="1" stop-color="#c3b8ae"/>
+      <stop offset="1" stop-color="#d8ccc2"/>
+      <stop offset="1" stop-color="#e4d8ce"/>
+      <stop offset="1" stop-color="#e8dcd2"/>
+    </linearGradient>
+  </defs>
+  <title>Jupiter</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Solar_System_-_Page" data-name="Solar System - Page">
+      <g id="Planets">
+        <circle id="Jupiter" class="cls-1" cx="78.5" cy="78.5" r="78.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

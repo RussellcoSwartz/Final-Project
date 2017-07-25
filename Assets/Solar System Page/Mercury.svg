@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13.56 13.56">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ae8a4a;
+      }
+    </style>
+  </defs>
+  <title>Mercury</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Solar_System_-_Page" data-name="Solar System - Page">
+      <g id="Planets">
+        <circle id="Mercury" class="cls-1" cx="6.78" cy="6.78" r="6.78"/>
+      </g>
+    </g>
+  </g>
+</svg>

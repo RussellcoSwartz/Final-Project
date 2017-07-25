@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 323.49 144.01">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="184.24" y1="139.43" x2="137.44" y2="-0.73" gradientTransform="translate(233.4 -89.66) rotate(90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffeebc"/>
+      <stop offset="0.1" stop-color="#fcebba"/>
+      <stop offset="0.17" stop-color="#f3e3b3"/>
+      <stop offset="0.23" stop-color="#e3d4a8"/>
+      <stop offset="0.29" stop-color="#cdbf98"/>
+      <stop offset="0.33" stop-color="#b7ab88"/>
+      <stop offset="0.36" stop-color="#b9ad89"/>
+      <stop offset="0.37" stop-color="#c0b38e"/>
+      <stop offset="0.37" stop-color="#c1b48f"/>
+      <stop offset="0.58" stop-color="#c3b690"/>
+      <stop offset="0.66" stop-color="#cabc95"/>
+      <stop offset="0.72" stop-color="#d5c79e"/>
+      <stop offset="0.76" stop-color="#e6d7aa"/>
+      <stop offset="0.77" stop-color="#eadbad"/>
+      <stop offset="0.81" stop-color="#f5e5b5"/>
+      <stop offset="0.87" stop-color="#fdecba"/>
+      <stop offset="1" stop-color="#ffeebc"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="161.76" cy="70.93" r="118.69" gradientTransform="matrix(0.98, -0.19, 0.04, 0.2, -0.07, 86.65)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d4c69d" stop-opacity="0"/>
+      <stop offset="0.48" stop-color="#cec199" stop-opacity="0"/>
+      <stop offset="0.56" stop-color="#c8bb94" stop-opacity="0"/>
+      <stop offset="0.62" stop-color="#c7ba94" stop-opacity="0"/>
+      <stop offset="0.62" stop-color="#c6b993" stop-opacity="0"/>
+      <stop offset="0.64" stop-color="#c0b38e" stop-opacity="0.06"/>
+      <stop offset="0.65" stop-color="#afa482" stop-opacity="0.22"/>
+      <stop offset="0.67" stop-color="#948a6e" stop-opacity="0.48"/>
+      <stop offset="0.69" stop-color="#7d755d" stop-opacity="0.7"/>
+      <stop offset="0.78" stop-color="#877e65" stop-opacity="0.67"/>
+      <stop offset="0.81" stop-color="#aca180" stop-opacity="0.57"/>
+      <stop offset="0.82" stop-color="#c3b691" stop-opacity="0.51"/>
+      <stop offset="0.84" stop-color="#c3b691" stop-opacity="0.45"/>
+      <stop offset="0.86" stop-color="#c2b590" stop-opacity="0.27"/>
+      <stop offset="0.89" stop-color="#c1b48f" stop-opacity="0"/>
+      <stop offset="0.92" stop-color="#c0b38e" stop-opacity="0.01"/>
+      <stop offset="0.94" stop-color="#bbaf8b" stop-opacity="0.06"/>
+      <stop offset="0.95" stop-color="#b4a785" stop-opacity="0.15"/>
+      <stop offset="0.96" stop-color="#a99d7e" stop-opacity="0.27"/>
+      <stop offset="0.96" stop-color="#9b8f73" stop-opacity="0.42"/>
+      <stop offset="0.97" stop-color="#8b8068" stop-opacity="0.6"/>
+    </radialGradient>
+  </defs>
+  <title>Saturn</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Solar_System_-_Page" data-name="Solar System - Page">
+      <g id="Planets">
+        <g id="Saturn">
+          <circle id="Planet" class="cls-1" cx="161.58" cy="72.01" r="72" transform="translate(73.04 225.15) rotate(-83.99)"/>
+          <path id="Ring" class="cls-2" d="M323.36,41.06C326,55.17,287.81,75,231,91.16c2.74-6.65,3.62-23.15,1.12-33-12.7,2.41-129.78,23.58-141.75,25.25,2,11.25,6.88,24,13.63,31.86C45.43,121,2.81,116.52.13,102.45-3.45,83.59,66,54.57,155.26,37.62S319.78,22.21,323.36,41.06Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

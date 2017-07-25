@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 22 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="10.86" y1="22.18" x2="11.13" y2="0.18" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fffcbe"/>
+      <stop offset="0.45" stop-color="#d0a457"/>
+      <stop offset="0.53" stop-color="#dcb96d"/>
+      <stop offset="0.63" stop-color="#e9d087"/>
+      <stop offset="0.77" stop-color="#e9d087"/>
+      <stop offset="0.84" stop-color="#d5b36b"/>
+      <stop offset="0.89" stop-color="#e9d087"/>
+      <stop offset="1" stop-color="#e8cf87"/>
+    </linearGradient>
+  </defs>
+  <title>Venus</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Solar_System_-_Page" data-name="Solar System - Page">
+      <g id="Planets">
+        <circle id="Venus" class="cls-1" cx="11" cy="11" r="11"/>
+      </g>
+    </g>
+  </g>
+</svg>

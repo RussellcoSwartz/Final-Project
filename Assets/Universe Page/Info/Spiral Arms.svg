@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 173.33 23.91">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 22px;
+        fill: #fff;
+        font-family: MyriadPro-Regular, Myriad Pro;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <title>Spiral Arms</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Universe_-_Page" data-name="Universe - Page">
+      <g id="Info">
+        <text class="cls-1" transform="translate(34.77 18.41)">Spi<tspan class="cls-2" x="28.51" y="0">r</tspan><tspan x="35.6" y="0">al </tspan><tspan class="cls-3" x="56.05" y="0">A</tspan><tspan class="cls-4" x="69.45" y="0">r</tspan><tspan x="76.73" y="0">ms</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
