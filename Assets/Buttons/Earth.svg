@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118 28.51">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c1c1c1;
+      }
+
+      .cls-2 {
+        font-size: 14px;
+        font-family: MyriadPro-Regular, Myriad Pro;
+      }
+
+      .cls-3 {
+        letter-spacing: 0.02em;
+      }
+    </style>
+  </defs>
+  <title>Earth</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Buttons">
+      <rect class="cls-1" width="118" height="28.51" rx="12" ry="12"/>
+      <text class="cls-2" transform="translate(44.02 17.94)">Ea<tspan class="cls-3" x="13.64" y="0">r</tspan><tspan x="18.55" y="0">th</tspan></text>
+    </g>
+  </g>
+</svg>
