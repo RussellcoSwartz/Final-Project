@@ -1,0 +1,66 @@
+#center{
+    width: 75vh;
+    max-width: 80vw;
+    margin: auto;
+    position: relative;
+}
+
+ul{
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+}
+li{
+    height: 20%;
+    padding: 0;
+    margin-bottom: 5%;
+    z-index: 1;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+#docB:hover{
+    content: url(Assets/Buttons/Doc_H.svg);
+}
+#galaxyB:hover{
+    content: url(Assets/Buttons/Galaxy_H.svg);
+}
+#solarB:hover{
+    content: url(Assets/Buttons/Solar_H.svg);
+}
+#earthB:hover{
+    content: url(Assets/Buttons/Earth_H.svg);
+}
+#docB:active{
+    content: url(Assets/Buttons/Doc_A.svg);
+}
+#galaxyB:active{
+    content: url(Assets/Buttons/Galaxy_A.svg);
+}
+#solarB:active{
+    content: url(Assets/Buttons/Solar_A.svg);
+}
+#earthB:active{
+    content: url(Assets/Buttons/Earth_A.svg);
+}
+
+
+
+#gate{
+    z-index: 0;
+    width: 100%;
+    margin-bottom: -105%;
+}
+
+
+
+h1{
+    position: absolute;
+    padding: 0;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    font-size: 4em;
+    font-family: Myriad Pro;
+    font-weight: lighter;
+}
