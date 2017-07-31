@@ -4,6 +4,28 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>Earth</title>
         <link href="earth.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                
+                $("#sun_i").click(function(){
+                    $("#sun").animate({top: '100vh'});
+                    $("#moon").animate({bottom: '100vh'});
+                    $("#d_i").animate({opacity: '0'});
+                    $("#s_i").animate({opacity: '1'});
+                    $("#night_tag").animate({opacity: '1'});
+                });
+                
+                $("#m_i").click(function(){
+                    $("#moon").animate({bottom: '0vh'});
+                    $("#sun").animate({top: '0vh'});
+                    $("#d_i").animate({opacity: '1'});
+                    $("#s_i").animate({opacity: '0'});
+                    $("#night_tag").animate({opacity: '0'});
+                });
+                
+            });   
+        </script>
     </head>
     <body>
         <ul>
@@ -17,18 +39,18 @@
                 <a href="solar.html"><img id="solarB" src="Assets/Buttons/SolarSyst.svg"></a>   
             </li>
             <li>
-                <a href="#"><img id="earthB" src="Assets/Buttons/Earth_A.svg"></a>   
+                <a href="#"><img id="earthB" src="Assets/Buttons/Earth.svg"></a>   
             </li>
             <li>
                 <a href="index.html"><img id="navB" src="Assets/Buttons/Nav.svg"></a>   
             </li>
         </ul>
         
-        <div id="earth"><img src="Assets/EarthPage/earth@3x.png"></div>
-        <div id="stars"><img src="Assets/EarthPage/stars@3x.png"></div>
-        <div id="sun"><img src="Assets/EarthPage/sun@3x.png"></div>
-        <div id="moon"><img src="Assets/EarthPage/moon@3x.png"></div>
-        <div id="day"><img src="Assets/EarthPage/day@3x.png"></div>
+        <div id="earth"><h1>Earth</h1><img id="e_i" src="Assets/EarthPage/earth@3x.png"></div>
+        <div id="stars"><h1 id="night_tag">Night</h1><img id="s_i" src="Assets/EarthPage/stars@3x.png"></div>
+        <div id="sun"><h1>Sun</h1><img id="sun_i" src="Assets/EarthPage/sun@3x.png"></div>
+        <div id="moon"><h1>Moon</h1><img id="m_i" src="Assets/EarthPage/moon@3x.png"></div>
+        <div id="day"><h1>Day</h1><img id="d_i" src="Assets/EarthPage/day@3x.png"></div>
         
     </body>
 </html>

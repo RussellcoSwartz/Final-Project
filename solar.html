@@ -2,8 +2,56 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Earth</title>
-        <link href="earth.css" rel="stylesheet" type="text/css">
+        <title>Solar System</title>
+        <link href="solar.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                
+                $("#mercury_b").hover(function(){
+                    $("#mercury_r").css("filter", "hue-rotate(245deg)");
+                },function(){
+                    $("#mercury_r").css("filter", "hue-rotate(0deg)");
+                });
+                $("#venus_b").hover(function(){
+                    $("#venus_r").css("filter", "hue-rotate(245deg)");
+                },function(){
+                    $("#venus_r").css("filter", "hue-rotate(0deg)");
+                });
+                $("#earth_b").hover(function(){
+                    $("#earth_r").css("filter", "hue-rotate(245deg)");
+                },function(){
+                    $("#earth_r").css("filter", "hue-rotate(0deg)");
+                });
+                $("#mars_b").hover(function(){
+                    $("#mars_r").css("filter", "hue-rotate(245deg)");
+                },function(){
+                    $("#mars_r").css("filter", "hue-rotate(0deg)");
+                });
+                $("#jupiter_b").hover(function(){
+                    $("#jupiter_r").css("filter", "hue-rotate(245deg)");
+                },function(){
+                    $("#jupiter_r").css("filter", "hue-rotate(0deg)");
+                });
+                $("#saturn_b").hover(function(){
+                    $("#saturn_r").css("filter", "hue-rotate(245deg)");
+                },function(){
+                    $("#saturn_r").css("filter", "hue-rotate(0deg)");
+                });
+                $("#uranus_b").hover(function(){
+                    $("#uranus_r").css("filter", "hue-rotate(245deg)");
+                },function(){
+                    $("#uranus_r").css("filter", "hue-rotate(0deg)");
+                });
+                $("#neptune_b").hover(function(){
+                    $("#neptune_r").css("filter", "hue-rotate(245deg)");
+                },function(){
+                    $("#neptune_r").css("filter", "hue-rotate(0deg)");
+                });
+                
+            });   
+        </script>
+
     </head>
     <body>
         <ul>
@@ -17,18 +65,44 @@
                 <a href="#"><img id="solarB" src="Assets/Buttons/SolarSyst.svg"></a>   
             </li>
             <li>
-                <a href="earth.html"><img id="earthB" src="Assets/Buttons/Earth_A.svg"></a>   
+                <a href="earth.html"><img id="earthB" src="Assets/Buttons/Earth.svg"></a>   
             </li>
             <li>
                 <a href="index.html"><img id="navB" src="Assets/Buttons/Nav.svg"></a>   
             </li>
         </ul>
-        
-        <div id="earth"><img src="Assets/EarthPage/earth@3x.png"></div>
-        <div id="stars"><img src="Assets/EarthPage/stars@3x.png"></div>
-        <div id="sun"><img src="Assets/EarthPage/sun@3x.png"></div>
-        <div id="moon"><img src="Assets/EarthPage/moon@3x.png"></div>
-        <div id="day"><img src="Assets/EarthPage/day@3x.png"></div>
-        
+
+        <div id="center">
+            <img id="sun" src="Assets/SSPage/planets_still/Sun.png">
+            
+            <img id="mercury_r" src="Assets/SSPage/rings/mercury_r.png">
+            <img id="venus_r" src="Assets/SSPage/rings/venus_r.png">     
+            <img id="earth_r" src="Assets/SSPage/rings/earth_r.png">
+            <img id="mars_r" src="Assets/SSPage/rings/mars_r.png">
+            <img id="jupiter_r" src="Assets/SSPage/rings/jupiter_r.png">
+            <img id="saturn_r" src="Assets/SSPage/rings/saturn_r.png">
+            <img id="uranus_r" src="Assets/SSPage/rings/uranus_r.png">
+            <img id="neptune_r" src="Assets/SSPage/rings/neptune_r.png">
+            
+            <img id="mercury_s" src="Assets/SSPage/planets_still/Mercury.png">
+            <img id="venus_s" src="Assets/SSPage/planets_still/Venus.png">
+            <img id="earth_s" src="Assets/SSPage/planets_still/Earth.png">
+            <img id="mars_s" src="Assets/SSPage/planets_still/Mars.png">
+            <img id="jupiter_s" src="Assets/SSPage/planets_still/Jupiter.png">
+            <img id="saturn_s" src="Assets/SSPage/planets_still/Saturn.png">
+            <img id="uranus_s" src="Assets/SSPage/planets_still/Uranus.png">
+            <img id="neptune_s" src="Assets/SSPage/planets_still/Neptune.png">
+            
+            <div id="planets">
+                <a href="#" id="mercury_b"></a>
+                <a href="#" id="venus_b"></a>
+                <a href="#" id="earth_b"></a>
+                <a href="#" id="mars_b"></a>
+                <a href="#" id="jupiter_b"></a>
+                <a href="#" id="saturn_b"></a>
+                <a href="#" id="uranus_b"></a>
+                <a href="#" id="neptune_b"></a>
+            </div>
+        </div>
     </body>
 </html>

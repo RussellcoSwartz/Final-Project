@@ -1,12 +1,13 @@
 /* navigation bar */
-ul{
+#navbar{
+    position: relative;
     list-style-type: none;
-    width: 20vw;
+    width: 400px;
     padding: 0;
-    position:fixed;
-    margin-left:80vw;
-    margin-top: 12vh;
-    z-index: 1;
+    float: right;
+    margin-top:5vh;
+    z-index: 10;
+
 }
 li{
     height: 20%;
@@ -19,36 +20,32 @@ li{
 }
 
 #docB:hover{
-    content: url(Assets/Buttons/Doc_H.svg);
-}
-#galaxyB:hover{
-    content: url(Assets/Buttons/Galaxy_H.svg);
+    filter: brightness(1.2);
 }
 #solarB:hover{
-    content: url(Assets/Buttons/Solar_H.svg);
+    filter: brightness(1.2);
 }
 #earthB:hover{
-    content: url(Assets/Buttons/Earth_H.svg);
+    filter: brightness(1.2);
 }
 #navB:hover{
-    content: url(Assets/Buttons/Nav_H.svg);
+    filter: brightness(1.2);
 }
 #docB:active{
-    content: url(Assets/Buttons/Doc_A.svg);
-}
-#galaxyB:active{
-    content: url(Assets/Buttons/Galaxy_A.svg);
+    filter: brightness(0.7);
 }
 #solarB:active{
-    content: url(Assets/Buttons/Solar_A.svg);
+    filter: brightness(0.7);
 }
 #earthB:active{
-    content: url(Assets/Buttons/Earth_A.svg);
+    filter: brightness(0.7);
 }
 #navB:active{
-    content: url(Assets/Buttons/Nav_A.svg);
+    filter: brightness(0.7);
 }
-
+#galaxyB{
+    filter: brightness(0.7);
+}
 
 /* content */
 
@@ -56,52 +53,83 @@ body{
     background-color: black;
     overflow: hidden;
     margin: 0;
+    padding: 0;
 }
-body>div{
+#center{
     position: fixed;
     overflow: visible;
-    width: 1px;
-    height: 1px;
+    width: 10px;
+    height: 0;
+    margin-left: -25%;
+    margin-top: -30%;
+}
+#center>img{
+    position: absolute;
+
 }
 
+#bh{
+    z-index: 6;
+    animation:spin 40s linear infinite;
+    width: 110vw;
+}
 
-#earth{
-    margin-left: 50vw;
-    margin-top: 60vh;
+#buldge{
+    z-index: 3;
+    animation:spin 48s linear infinite;
+    width: 110vw;
+}
+#cluster{
+    z-index: 6;
+    animation:spin 50s linear infinite;
+    width: 110vw;
+}
+#clouds{
+    z-index: 7;
+    animation:spin 53s linear infinite;
+    width: 110vw;
+}
+#arms{
+    z-index: 3;
+    animation:spin 53s linear infinite;
+    width: 110vw;
+}
+#disk{
     z-index: 2;
+    animation:spin 54s linear infinite;
+    width: 110vw;
 }
-#earth>img{
-    width: 120vw;
-    transform: translate(-50%,0);
-}
-
 #stars{
     z-index: 1;
-}
-#stars>img{
-    width:100vw;
-}
-
-#moon{
-    margin-top: 20vh;
-    margin-left: 65vw;
-    z-index: 1;
-}
-#moon>img{
-    width:10vw;
+    animation:spin 55s linear infinite;
+    width: 110vw;
 }
 
-#sun{
-    margin-top: 10vh;
-    margin-left:10vw;
-    z-index: 1;
-}
-#sun>img{
-    width: 15vw;
+    /* animations */
+
+@keyframes spin { 
+    100% { transform:rotate(-360deg); }
 }
 
-#day>img{
-    transform: translate(-40%,0);
-    width: 170vw;
-    height:100vh;
+/* Info */
+
+#info{
+    position: relative;
+    float: right;
+    color: white;
+    padding:0;
+    z-index: 8;
+    text-align: center;
+    clear: right;
+    margin-right: 5vw;
 }
+h1{
+    font-size: 3vh;
+}
+h2{
+    font-size: 2.6vh;
+    width: 100%;
+}
+
+
+

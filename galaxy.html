@@ -2,11 +2,68 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Earth</title>
-        <link href="earth.css" rel="stylesheet" type="text/css">
+        <title>Galaxy</title>
+        <link href="galaxy.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+        /* javascript & jQuery */
+            $(document).ready(function(){
+                $("#n_bh").hover(function(){
+                    $(".g").css("opacity", "0.2");
+                    $("#bh").css("opacity", "1");
+                },function(){
+                    $(".g").css("opacity", "1");
+                });
+                
+                $("#n_buldge").hover(function(){
+                    $(".g").css("opacity", "0.2");
+                    $("#buldge").css("opacity", "1");
+                },function(){
+                    $(".g").css("opacity", "1");
+                });
+                
+                $("#n_disk").hover(function(){
+                    $(".g").css("opacity", "0.2");
+                    $("#disk").css("opacity", "1");
+                },function(){
+                    $(".g").css("opacity", "1");
+                });
+
+                $("#n_arms").hover(function(){
+                    $(".g").css("opacity", "0.2");
+                    $("#arms").css("opacity", "1");
+                },function(){
+                    $(".g").css("opacity", "1");
+                });
+                
+                $("#n_clouds").hover(function(){
+                    $(".g").css("opacity", "0.2");
+                    $("#clouds").css("opacity", "1");
+                    $("#clouds").css("filter", "saturate(170%)");
+                },function(){
+                    $(".g").css("opacity", "1");
+                });
+                
+                $("#n_star").hover(function(){
+                    $(".g").css("opacity", "0.2");
+                    $("#stars").css("opacity", "1");
+                    $("#stars").css("brightness", "1.4");
+                },function(){
+                    $(".g").css("opacity", "1");
+                });
+                
+                $("#n_clusters").hover(function(){
+                    $(".g").css("opacity", "0.2");
+                    $("#cluster").css("opacity", "1");
+                },function(){
+                    $(".g").css("opacity", "1");
+                });
+            });
+        
+        </script>
     </head>
     <body>
-        <ul>
+        <ul id="navbar">
             <li>
                 <a href="doc.html" ><img id="docB" src="Assets/Buttons/Doc.svg"></a>   
             </li>
@@ -17,18 +74,32 @@
                 <a href="solar.html"><img id="solarB" src="Assets/Buttons/SolarSyst.svg"></a>   
             </li>
             <li>
-                <a href="earth.html"><img id="earthB" src="Assets/Buttons/Earth_A.svg"></a>   
+                <a href="earth.html"><img id="earthB" src="Assets/Buttons/Earth.svg"></a>   
             </li>
             <li>
                 <a href="index.html"><img id="navB" src="Assets/Buttons/Nav.svg"></a>   
             </li>
         </ul>
         
-        <div id="earth"><img src="Assets/EarthPage/earth@3x.png"></div>
-        <div id="stars"><img src="Assets/EarthPage/stars@3x.png"></div>
-        <div id="sun"><img src="Assets/EarthPage/sun@3x.png"></div>
-        <div id="moon"><img src="Assets/EarthPage/moon@3x.png"></div>
-        <div id="day"><img src="Assets/EarthPage/day@3x.png"></div>
+        <div id="center">
+            <img class="g" id="bh" src="Assets/GalaxyPage/black_hole@4x.png">
+            <img class="g" id="arms" src="Assets/GalaxyPage/arms@4x.png">
+            <img class="g" id="disk" src="Assets/GalaxyPage/disk@4x.png">
+            <img class="g" id="buldge" src="Assets/GalaxyPage/galactic_bulge@4x.png">
+            <img class="g" id="cluster" src="Assets/GalaxyPage/Globular_Clusters@4x.png">
+            <img class="g" id="clouds" src="Assets/GalaxyPage/molecular_clouds@4x.png">
+            <img class="g" id="stars" src="Assets/GalaxyPage/star_forming@4x.png">
+        </div>
         
+        <div id="info">
+            <h1>Hover over names to see<br /><span style="text-decoration:underline">what part of the galaxy it is.</span></h1>
+            <h2 id="n_bh">Massive Black Hole</h2>
+            <h2 id="n_buldge">Galactic Bulge</h2>
+            <h2 id="n_disk">Galactic Disk</h2>
+            <h2 id="n_arms">Spiral Arms</h2>
+            <h2 id="n_clouds">Molecular Clouds</h2>
+            <h2 id="n_star">Star Forming Region</h2>
+            <h2 id="n_clusters">Globular Clusters</h2>
+        </div>
     </body>
 </html>

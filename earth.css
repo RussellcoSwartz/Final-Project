@@ -6,48 +6,45 @@ ul{
     position:fixed;
     margin-left:80vw;
     margin-top: 12vh;
-    z-index: 1;
+    z-index: 10;
 }
 li{
     height: 20%;
     padding: 0;
     margin-bottom: 5%;
-    z-index: 1;
     width: 50%;
     margin: auto;
     margin-bottom: 5%;
 }
 
 #docB:hover{
-    content: url(Assets/Buttons/Doc_H.svg);
+    filter: brightness(1.2);
 }
 #galaxyB:hover{
-    content: url(Assets/Buttons/Galaxy_H.svg);
+    filter: brightness(1.2);
 }
 #solarB:hover{
-    content: url(Assets/Buttons/Solar_H.svg);
-}
-#earthB:hover{
-    content: url(Assets/Buttons/Earth_H.svg);
+   filter: brightness(1.2);
 }
 #navB:hover{
-    content: url(Assets/Buttons/Nav_H.svg);
+    filter: brightness(1.2);
 }
 #docB:active{
-    content: url(Assets/Buttons/Doc_A.svg);
+    filter: brightness(0.7);
 }
 #galaxyB:active{
-    content: url(Assets/Buttons/Galaxy_A.svg);
+    filter: brightness(0.7);
 }
 #solarB:active{
-    content: url(Assets/Buttons/Solar_A.svg);
-}
-#earthB:active{
-    content: url(Assets/Buttons/Earth_A.svg);
+    filter: brightness(0.7);
 }
 #navB:active{
-    content: url(Assets/Buttons/Nav_A.svg);
+    filter: brightness(0.7);
 }
+#earthB{
+    filter: brightness(0.7);
+}
+
 
 
 /* content */
@@ -72,7 +69,8 @@ body>div{
 }
 #earth>img{
     width: 120vw;
-    transform: translate(-50%,0);
+    margin-left: -60vw;
+    animation: spin 50s linear infinite;
 }
 
 #stars{
@@ -80,11 +78,12 @@ body>div{
 }
 #stars>img{
     width:100vw;
+    opacity: 0;
 }
 
 #moon{
-    margin-top: 20vh;
-    margin-left: 65vw;
+    position: relative;
+    transform: translate(60vw,120vh);
     z-index: 1;
 }
 #moon>img{
@@ -92,8 +91,8 @@ body>div{
 }
 
 #sun{
-    margin-top: 10vh;
-    margin-left:10vw;
+    position: relative;
+    transform: translate(10vw,10vh);
     z-index: 1;
 }
 #sun>img{
@@ -104,4 +103,37 @@ body>div{
     transform: translate(-40%,0);
     width: 170vw;
     height:100vh;
+}
+
+h1{
+    position: absolute;
+    font-size: 4.2vw;
+    font-family: Myriad Pro;
+    font-weight: lighter;
+    z-index: 2;
+    pointer-events: none;
+}
+#earth>h1{
+    transform: translate(-50%,-15%);
+}
+#sun>h1{
+    transform: translate(60%,15%);
+}
+#moon>h1{
+    font-size: 3vw;
+    transform: translate(18%,30%);
+}
+#day>h1, #stars>h1{
+    margin-left:45vw;
+    transform: translate(-50%,-15%);
+}
+#stars>h1{
+    color: white;
+    opacity: 0;
+}
+
+/* animation */
+
+@keyframes spin { 
+    100% { transform:rotate(-360deg); }
 }

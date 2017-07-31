@@ -18,35 +18,32 @@ li{
     margin-bottom: 5%;
 }
 
-#docB:hover{
-    content: url(Assets/Buttons/Doc_H.svg);
-}
 #galaxyB:hover{
-    content: url(Assets/Buttons/Galaxy_H.svg);
+    filter: brightness(1.2);
 }
 #solarB:hover{
-    content: url(Assets/Buttons/Solar_H.svg);
+    filter: brightness(1.2);
 }
 #earthB:hover{
-    content: url(Assets/Buttons/Earth_H.svg);
+    filter: brightness(1.2);
 }
 #navB:hover{
-    content: url(Assets/Buttons/Nav_H.svg);
-}
-#docB:active{
-    content: url(Assets/Buttons/Doc_A.svg);
+    filter: brightness(1.2);
 }
 #galaxyB:active{
-    content: url(Assets/Buttons/Galaxy_A.svg);
+    filter: brightness(0.7);
 }
 #solarB:active{
-    content: url(Assets/Buttons/Solar_A.svg);
+    filter: brightness(0.7);
 }
 #earthB:active{
-    content: url(Assets/Buttons/Earth_A.svg);
+    filter: brightness(0.7);
 }
 #navB:active{
-    content: url(Assets/Buttons/Nav_A.svg);
+    filter: brightness(0.7);
+}
+#docB{
+    filter: brightness(0.7);
 }
 
 
@@ -57,51 +54,44 @@ body{
     overflow: hidden;
     margin: 0;
 }
-body>div{
-    position: fixed;
-    overflow: visible;
-    width: 1px;
-    height: 1px;
+
+#universe_model{
+    width: 110vw;
+    margin-left: -5vw;
+    margin-top: 50vh;
+    position: absolute;
 }
 
+h1{
+    position: absolute;
+    font-size: 4em;
+    font-family: Myriad Pro;
+    font-weight: lighter;
+    color: white;
+    margin-top: 86vh;
+}
 
-#earth{
+#bb{
+    margin-left: 2vw;
+}
+#uni{
+    margin-left: 24vw;
+    margin-top: 66vh;
+}
+#sing{
     margin-left: 50vw;
-    margin-top: 60vh;
-    z-index: 2;
-}
-#earth>img{
-    width: 120vw;
-    transform: translate(-50%,0);
 }
 
-#stars{
-    z-index: 1;
-}
-#stars>img{
-    width:100vw;
-}
-
-#moon{
-    margin-top: 20vh;
-    margin-left: 65vw;
-    z-index: 1;
-}
-#moon>img{
-    width:10vw;
-}
-
-#sun{
+div{
+    color: white;
+    position: absolute;
     margin-top: 10vh;
-    margin-left:10vw;
-    z-index: 1;
-}
-#sun>img{
-    width: 15vw;
+    margin-left: 10vw;
 }
 
-#day>img{
-    transform: translate(-40%,0);
-    width: 170vw;
-    height:100vh;
+h2{
+    font-size: 3em;
+}
+p{
+    font-size: 1.5em;
 }

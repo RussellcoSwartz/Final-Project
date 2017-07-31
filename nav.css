@@ -21,30 +21,32 @@ li{
 }
 
 #docB:hover{
-    content: url(Assets/Buttons/Doc_H.svg);
+    filter: brightness(1.2);
 }
 #galaxyB:hover{
-    content: url(Assets/Buttons/Galaxy_H.svg);
+    filter: brightness(1.2);
 }
 #solarB:hover{
-    content: url(Assets/Buttons/Solar_H.svg);
+    filter: brightness(1.2);
 }
 #earthB:hover{
-    content: url(Assets/Buttons/Earth_H.svg);
+    filter: brightness(1.2);
 }
 #docB:active{
-    content: url(Assets/Buttons/Doc_A.svg);
+    filter: brightness(0.7);
 }
 #galaxyB:active{
-    content: url(Assets/Buttons/Galaxy_A.svg);
+    filter: brightness(0.7);
 }
 #solarB:active{
-    content: url(Assets/Buttons/Solar_A.svg);
+    filter: brightness(0.7);
 }
 #earthB:active{
-    content: url(Assets/Buttons/Earth_A.svg);
+    filter: brightness(0.7);
 }
-
+#navB{
+    filter: brightness(0.7)
+}
 
 
 #gate{
@@ -52,7 +54,9 @@ li{
     width: 100%;
     margin-bottom: -105%;
 }
-
+#gate>img{
+    width: 100%;
+}
 
 
 h1{
@@ -63,4 +67,10 @@ h1{
     font-size: 4em;
     font-family: Myriad Pro;
     font-weight: lighter;
+}
+
+@media only screen and (max-width: 900px){
+    h1{
+        font-size: 2em;
+    }
 }
